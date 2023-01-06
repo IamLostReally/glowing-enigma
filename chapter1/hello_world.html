@@ -10,13 +10,20 @@
 <h1 style="color: green; font-size : 60px; text-align: left;">
 This is the heading it should be green and is important for SEO
 </h1>
-<div>*** DIV 1: Some content ***</div>
-<div>*** DIV 2: Some more content ***</div>
-<span>*** SPAN 1: Following on DIV2***</span>
-<div>***DIV 3: Containing SPAN2 ***
-	<span> ***SPAN 2: Inside DIV3 </span>
-	***End of DIV3***
+<div>
+	<a href="#lists" title="link to list section">
+		This link goes to the list section it has no other function
+	</a>
 </div>
+<div>
+	<a href="#broken" title="link to broken links">
+		This link goes to the broken link section it has no other function
+	</a>
+</div>
+<section id="lists">
+<h2>
+		Lists
+</h2>	
 <div>
 	Look I can make lists
 	<ul>
@@ -41,22 +48,34 @@ This is the heading it should be green and is important for SEO
 		<li>First step in ordered list</li>
 		<li>Second step in ordered list</li>
 		<li>Third step in oredered list</li>
-			<ol>
-				<li>First sub step of third step</li>
-					<ul>
-						<li>Unordered list first item</li>
-					</ul>
-			</ol>
+		<li>	
+				<ol>
+					<li>First sub step of third step</li>
+						<li>
+							<ul>
+								<li>Unordered list first item</li>
+							</ul>
+						</li>
+				</ol>
+		</li>
 	</ol>
 </div>
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="broken link">
-	<div>Click this link to see the meaning of life</div>
-</a>
-<div>
-	<a href="hello.html" target="_blank" title="even more broken links">
-		Secondary link
+</section>
+<section id="broken">
+	<h3>
+		Links to important research
+	</h3>
+	<a href="404.html" target="_blank" title="broken link">
+		<span>Click this link to see the meaning of life</span>
 	</a>
-</div>
+	<div>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="even more broken links">
+			Secondary link
+		</a>
+	</div>
+</section>
+<img scr="https://cdn.britannica.com/30/91430-050-EB52A59A/cross-section-human-eye-axis-structures.jpg" width="640" height="480">
+</img>
 <footer>
 	<p style="color: red;">If the website is down please contact : fake_email@jahoo.com</p>
 </footer>
